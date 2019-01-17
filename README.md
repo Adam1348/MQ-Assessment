@@ -24,7 +24,7 @@ csv or not. Type the following command into terminal to run `etl.xml`:
 ```
 java -jar ../lib/scriptella.jar etl.xml
 ```
-Check `./output` folder to see the csv.
+Check `../output` folder to see the csv.
 
 ### Output
 `Report.csv` is the query result. Departments with 100 or more employees.
