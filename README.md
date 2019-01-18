@@ -5,12 +5,9 @@ Create script in a XML file and execute using Scriptella.
 [Scriptella](http://scriptella.org/) is an open source ETL (Extract-Transform-Load) and script execution tool written in Java.
 
 ### Prerequisites
-* MySQL
-* Java Runtime Environment
-
 Check if JRE has been installed correctly by running java -version.
 
-I used Java 8.0 and MySQL 8.0.
+I used Java 8.0.
 
 ### Installation
 * Download Scriptella binary distribution.
@@ -22,8 +19,14 @@ I used Java 8.0 and MySQL 8.0.
 ```
 cd my-assessment
 ```
-`etl.xml` is the main file. Provide database connection information in `assessment.properties`. There are two variables in there, `action.db` and `out.csv`. `action.db` is used to decide whether you want to initialize a database or use an existing database. `out.csv` decides export query result to a
-csv or not. Type the following command into terminal to run `etl.xml`:
+`etl.xml` is the main file.
+
+Provide database connection information in `assessment.properties`. There are two variables in there, `action.db` and `out.csv`. `action.db` is used to decide whether you want to initialize a database or use an existing database. `out.csv` decides export query result to a
+csv or not.
+
+`../text` is the input folder.
+
+Type the following command into terminal to run `etl.xml`:
 ```
 java -jar ../lib/scriptella.jar etl.xml
 ```
