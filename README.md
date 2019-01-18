@@ -5,6 +5,9 @@ Create script in a XML file and execute using Scriptella.
 [Scriptella](http://scriptella.org/) is an open source ETL (Extract-Transform-Load) and script execution tool written in Java.
 
 ### Prerequisites
+* MySQL
+* Java Runtime Environment
+
 Check if JRE has been installed correctly by running java -version.
 
 I used Java 8.0.
