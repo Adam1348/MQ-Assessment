@@ -10,7 +10,7 @@ Create script in a XML file and execute using Scriptella.
 
 Check if JRE has been installed correctly by running java -version.
 
-I used Java 8.0.
+I used Java 8.0 and MySQL 8.0.
 
 ### Installation
 * Download Scriptella binary distribution.
